@@ -29,9 +29,12 @@ const adv = document.getElementsByClassName('promo__adv');
 const genre = document.querySelector('.promo__genre');
 const bg = document.querySelector('.promo__bg');
 
-bg.style.cssText = 'background-image: url(img/bg.jpg)';
-genre.textContent = "Драма";
 adv[0].remove();
+//task 1 complete
+genre.textContent = "Драма";
+//task 2 complete
+bg.style.cssText = 'background-image: url(img/bg.jpg)';
+//task 3 complete
 
 
 
