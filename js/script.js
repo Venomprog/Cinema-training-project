@@ -34,7 +34,7 @@ adv[0].remove();
 genre.textContent = "Драма";
 //task 2 complete
 bg.style.cssText = 'background-image: url(img/bg.jpg)';
-//task 3 complete
+//task 3 complete commenting
 
 
 
