@@ -52,5 +52,7 @@ movieDB.movies.forEach(function(item, i){ //Перепишем код для ч�
 //task 4 complete
 //task 5 complete
 
-
+filmsList.addEventListener('click', () =>{
+    console.log('done'); //При клике на элементы списка фильмов выводит сообщение в консоль
+});
 
