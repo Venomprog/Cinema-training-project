@@ -52,7 +52,19 @@ movieDB.movies.forEach(function(item, i){ //Перепишем код для ч�
 //task 4 complete
 //task 5 complete
 
-filmsList.addEventListener('click', () =>{
-    console.log('done'); //При клике на элементы списка фильмов выводит сообщение в консоль
-});
+let i = 0;
+const dlt = (event) =>{
+    i++;
+    
+    if ( i == 3){
+        filmsList.removeEventListener('click', dlt); //При клике 3 раза убирает слушателя события
+    }
+    console.log(i);
+};
+
+filmsList.addEventListener('click', dlt);
+
+// filmsList.addEventListener('click', (event, dlt) =>{
+//     console.log('done'); //При клике на элементы списка фильмов выводит сообщение в консоль
+// });
 
