@@ -41,9 +41,9 @@ poster.style.backgroundImage = 'url("img/bg.jpg")';
 //task 3 complete commenting
 filmsList.innerHTML = "";
 
-movieDB.movies.forEach(function(item, i){
+movieDB.movies.forEach(function(item, i){ //Перепишем код для чёткого создания элемента
     filmsList.innerHTML += `
-    <li class="promo__interactive-item">${i + 1} ${item}
+    <li class="promo__interactive-item">${i + 1} ${item} 
         <div class="delete"></div>
     </li>
     `;
