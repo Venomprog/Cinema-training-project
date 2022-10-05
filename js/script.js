@@ -24,19 +24,33 @@ const movieDB = {
     ]
 };
 
-// const adv = document.querySelector('.promo__adv');
-const adv = document.getElementsByClassName('promo__adv');
-const genre = document.querySelector('.promo__genre');
-const bg = document.querySelector('.promo__bg');
+const adv = document.querySelectorAll('.promo__adv img');
+const poster = document.querySelector('.promo__bg');
+const genre = poster.querySelector('.promo__genre');
+const filmsList = document.querySelector('.promo__interactive-list');
 
-adv[0].remove();
+movieDB.movies.sort();
+
+adv.forEach(item =>{
+    item.remove();
+});
 //task 1 complete
 genre.textContent = "Драма";
 //task 2 complete
-bg.style.cssText = 'background-image: url(img/bg.jpg)';
+poster.style.backgroundImage = 'url("img/bg.jpg")';
 //task 3 complete commenting
+filmsList.innerHTML = "";
 
+movieDB.movies.forEach(function(item, i){
+    filmsList.innerHTML += `
+    <li class="promo__interactive-item">${i + 1} ${item}
+        <div class="delete"></div>
+    </li>
+    `;
+});
 
+//task 4 complete
+//task 5 complete
 
 
 
