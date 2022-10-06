@@ -53,6 +53,11 @@ movieDB.movies.forEach(function(item, i){ //Перепишем код для ч�
 //task 5 complete
 
 let i = 0;
+const typeClick = (e) => { //функция при евенте пишет цель и тип евента
+    console.log(e.target);
+    console.log(e.type);
+};
+
 const dlt = (event) =>{
     i++;
     
@@ -62,7 +67,7 @@ const dlt = (event) =>{
     console.log(i);
 };
 
-filmsList.addEventListener('click', dlt);
+filmsList.addEventListener('click', typeClick);
 
 // filmsList.addEventListener('click', (event, dlt) =>{
 //     console.log('done'); //При клике на элементы списка фильмов выводит сообщение в консоль
