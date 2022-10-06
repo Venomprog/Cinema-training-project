@@ -67,7 +67,7 @@ const dlt = (event) =>{
     console.log(i);
 };
 
-filmsList.addEventListener('click', typeClick);
+// filmsList.addEventListener('mouseenter', typeClick);
 
 // filmsList.addEventListener('click', (event, dlt) =>{
 //     console.log('done'); //При клике на элементы списка фильмов выводит сообщение в консоль
