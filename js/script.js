@@ -58,7 +58,7 @@ const typeClick = (e) => { //функция при евенте пишет це�
     console.log(e.target);
     console.log(e.type);
 };
-document.addEventListener('click', typeClick);
+document.addEventListener('click', typeClick); //Обработчик на документ, при клике вызывает функцию
 
 let i = 0;
 const dlt = (event) =>{
