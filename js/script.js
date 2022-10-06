@@ -29,6 +29,7 @@ const poster = document.querySelector('.promo__bg');
 const genre = poster.querySelector('.promo__genre');
 const filmsList = document.querySelector('.promo__interactive-list');
 
+
 movieDB.movies.sort();
 
 adv.forEach(item =>{
@@ -52,12 +53,14 @@ movieDB.movies.forEach(function(item, i){ //Перепишем код для ч�
 //task 4 complete
 //task 5 complete
 
-let i = 0;
+
 const typeClick = (e) => { //функция при евенте пишет цель и тип евента
     console.log(e.target);
     console.log(e.type);
 };
+document.addEventListener('click', typeClick);
 
+let i = 0;
 const dlt = (event) =>{
     i++;
     
