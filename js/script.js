@@ -27,7 +27,7 @@ const movieDB = {
 const adv = document.querySelectorAll('.promo__adv img');
 const poster = document.querySelector('.promo__bg');
 const genre = poster.querySelector('.promo__genre');
-const filmsList = document.querySelector('.promo__interactive-list');
+const filmsList = document.querySelector('.promo__interactive-list'); //получение эл-ов со страницы
 
 
 movieDB.movies.sort();
