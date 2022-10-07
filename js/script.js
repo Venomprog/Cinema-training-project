@@ -40,7 +40,7 @@ genre.textContent = "Драма";
 //task 2 complete
 poster.style.backgroundImage = 'url("img/bg.jpg")';
 //task 3 complete commenting
-filmsList.innerHTML = "";
+filmsList.innerHTML = ""; // Такая конструкция позволяет очистить блок со списком фильмов
 
 movieDB.movies.forEach(function(item, i){ //Перепишем код для чёткого создания элемента
     filmsList.innerHTML += `
