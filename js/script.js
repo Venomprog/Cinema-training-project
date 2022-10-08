@@ -25,12 +25,12 @@ const movieDB = {
 };
 
 const adv = document.querySelectorAll('.promo__adv img');
-const poster = document.querySelector('.promo__bg');
+const poster = document.querySelector('.promo__bg'); //Получение объекта главного экрана фильма
 const genre = poster.querySelector('.promo__genre');
 const filmsList = document.querySelector('.promo__interactive-list'); //получение эл-ов со страницы
 
 
-movieDB.movies.sort();
+movieDB.movies.sort(); //Сортировка фильмов по алфавиту
 
 adv.forEach(item =>{
     item.remove();
@@ -75,4 +75,4 @@ const dlt = (event) =>{
 // filmsList.addEventListener('click', (event, dlt) =>{
 //     console.log('done'); //При клике на элементы списка фильмов выводит сообщение в консоль
 // });
-// Изучение DOM-элементов 
+// Изучение DOM-элементов
