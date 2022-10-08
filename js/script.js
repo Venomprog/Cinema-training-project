@@ -75,4 +75,4 @@ const dlt = (event) =>{
 // filmsList.addEventListener('click', (event, dlt) =>{
 //     console.log('done'); //При клике на элементы списка фильмов выводит сообщение в консоль
 // });
-// Изучение DOM-элементов
+// Изучение DOM-элементов и
