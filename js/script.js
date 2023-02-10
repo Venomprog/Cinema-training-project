@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', () =>{
     deleteAdv(adv);
    
 
-    //task 1 complete
+    //task 1 complete!
     genre.textContent = "Драма";
-    //task 2 complete
+    //task 2 complete!
     poster.style.backgroundImage = 'url("img/bg.jpg")';
-    //task 3 complete commenting
+    //task 3 complete commenting!
     movieDB.movies.sort();
     
     function renderMovies(films, parent){
