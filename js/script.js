@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     const adv = document.querySelectorAll('.promo__adv img');
     const poster = document.querySelector('.promo__bg'); //Получение объекта главного экрана фильма
     const genre = poster.querySelector('.promo__genre');
-    const filmsList = document.querySelector('.promo__interactive-list'); //получение эл-ов со страницы
+    const filmsList = document.querySelector('.promo__interactive-list'); //получение эл-ов со страницы!
     const addForm = document.querySelector('form.add');
     const addInput = addForm.querySelector('.adding__input');
     
